@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: papayawhip;
+    font-size: large;
+}
+header{
+    background-color: coral;
+    color: rgb(12, 14, 17);
+    padding: 10px;
+    text-align: center;
+
+
+}
+nav ul{
+    display: inline;
+    padding: 10px;
+    font-size: large;
+
+}
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+
+}
+nv ul li a{
+    color: white;
+    min-height: 500 px;
+
+}
+footer{
+    background-color: coral;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    
+}
+@media (max-width:600px) {
+    nav ul li{
+        display: block;
+        margin: 10px 0;
+    }
+    
+}
